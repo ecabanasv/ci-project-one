@@ -1,8 +1,7 @@
 /* General */
 
 html,
-body,
-.container {
+body {
     height: 100%;
     max-width: 940px;
     margin: auto;
@@ -14,7 +13,7 @@ body,
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    gap: 10px 10px;
+    gap: 5px;
     grid-auto-flow: row;
     grid-template-areas:
         "main-header main-header main-header"
@@ -24,18 +23,34 @@ body,
 }
 
 .main-header {
+    margin-top: 10px;
     grid-area: main-header;
+    background-image: none;
 }
 
 .main-nav {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
     grid-area: main-nav;
+}
+
+.main-nav a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+.main-nav ul {
+    list-style-type: none;
 }
 
 .content-index {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    gap: 0px 0px;
+    grid-template-rows: auto 1fr 1fr 1fr 1fr;
+    gap: 5px;
     grid-auto-flow: row;
     grid-template-areas:
         "main-index-text main-index-text main-index-text"
@@ -54,6 +69,11 @@ body,
     grid-area: main-index-img;
 }
 
+.main-index-img img {
+    width: 100%;
+    height: auto;
+}
+
 .main-index-article-3 {
     grid-area: main-index-article-3;
 }
@@ -68,16 +88,28 @@ body,
 
 .main-footer {
     grid-area: main-footer;
+    text-align: center;
+    margin-top: 10px;
 }
 
 /* CSS Grid: index.html (from 500px) */
 
 @media (min-width: 501px) {
+
+    .main-header {
+        background-image: url("../images/skye-1.jpg");
+        height: 150px;
+    }
+
+    .main-nav ul li {
+        display: inline-block;
+    }
+
     .container index {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
-        gap: 10px 10px;
+        gap: 0;
         grid-auto-flow: row;
         grid-template-areas:
             "main-header main-header main-header"
@@ -85,19 +117,20 @@ body,
             "content-index content-index content-index"
             "main-footer main-footer main-footer";
     }
+
     .content-index {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 0px 0px;
+        grid-template-rows: 1fr auto;
+        gap: 10px;
         grid-auto-flow: row;
         grid-template-areas:
             "main-index-img main-index-img main-index-text"
             "main-index-article-3 main-index-article-2 main-index-article-1";
         grid-area: content-index;
     }
-  }
-  
+}
+
 
 /* CSS Grid: articles.html */
 
