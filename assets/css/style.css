@@ -92,7 +92,143 @@ body {
     margin-top: 10px;
 }
 
-/* CSS Grid: index.html (from 500px) */
+/* CSS Grid: articles.html */
+
+.container articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "main-header main-header main-header"
+        "main-nav main-nav main-nav"
+        "content-articles content-articles content-articles"
+        "main-footer main-footer main-footer";
+}
+
+.content-articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "article-3-text article-3-text article-3-img"
+        "article-2-text article-2-text article-2-img"
+        "article-1-text article-1-text article-1-img";
+    grid-area: content-articles;
+}
+
+.article-3-text {
+    grid-area: article-3-text;
+}
+
+.article-3-img {
+    grid-area: article-3-img;
+}
+
+.article-2-text {
+    grid-area: article-2-text;
+}
+
+.article-2-img {
+    grid-area: article-2-img;
+}
+
+.article-1-text {
+    grid-area: article-1-text;
+}
+
+.article-1-img {
+    grid-area: article-1-img;
+}
+
+/* CSS Grid: article.html */
+
+.container article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "main-header main-header main-header"
+        "main-nav main-nav main-nav"
+        "content-article content-article content-article"
+        "main-footer main-footer main-footer";
+}
+
+.content-article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "article-img-1 article-img-1 article-img-1"
+        "article-main-text article-main-text article-main-text"
+        "article-subtext-1 article-subtext-1 article-img-2"
+        "article-img-3 article-subtext-2 article-subtext-2";
+    grid-area: content-article;
+}
+
+.article-img-1 {
+    grid-area: article-img-1;
+}
+
+.article-main-text {
+    grid-area: article-main-text;
+}
+
+.article-subtext-1 {
+    grid-area: article-subtext-1;
+}
+
+.article-img-2 {
+    grid-area: article-img-2;
+}
+
+.article-img-3 {
+    grid-area: article-img-3;
+}
+
+.article-subtext-2 {
+    grid-area: article-subtext-2;
+}
+
+
+/* CSS Grid: contact.html */
+
+.container contact {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "main-header main-header main-header"
+      "main-nav main-nav main-nav"
+      "content-contact content-contact content-contact"
+      "main-footer main-footer main-footer";
+  }
+  
+  .content-contact {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "contact-img contact-form contact-map";
+    grid-area: content-contact;
+  }
+  
+  .contact-img { grid-area: contact-img; }
+  
+  .contact-form { grid-area: contact-form; }
+  
+  .contact-map { grid-area: contact-map; }
+
+/* CSS Grid: (from 500px) */
 
 @media (min-width: 501px) {
 
@@ -130,10 +266,3 @@ body {
         grid-area: content-index;
     }
 }
-
-
-/* CSS Grid: articles.html */
-
-/* CSS Grid: article.html */
-
-/* CSS Grid: contact.html */
