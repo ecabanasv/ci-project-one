@@ -146,7 +146,7 @@ body {
 
 /* CSS Grid: article.html */
 
-.container article{
+.container single-article{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
