@@ -7,6 +7,17 @@ body {
     margin: auto;
 }
 
+ul.breadcrumb {
+    padding: 5px 8px;
+    list-style: none;
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 15px;
+}
+
+
 /* CSS Grid: index.html (less than 375px) */
 
 .container index {
