@@ -17,6 +17,14 @@ ul.breadcrumb li {
     font-size: 15px;
 }
 
+ul.breadcrumb li a {
+    text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+    text-decoration: underline;
+}
+
 
 /* CSS Grid: index.html (less than 375px) */
 
