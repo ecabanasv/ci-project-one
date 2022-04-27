@@ -5,6 +5,7 @@ body {
     height: 100%;
     max-width: 940px;
     margin: auto;
+    padding: 10px;
 }
 
 ul.breadcrumb {
@@ -23,6 +24,16 @@ ul.breadcrumb li a {
 
 ul.breadcrumb li a:hover {
     text-decoration: underline;
+}
+
+.main-header img {
+    display: none;
+}
+
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
@@ -47,6 +58,11 @@ ul.breadcrumb li a:hover {
     background-image: none;
 }
 
+.main-header img {
+    width: 100%;
+    margin: auto;
+}
+
 .main-nav {
     background-color: rgb(0, 0, 0);
     text-align: center;
@@ -68,12 +84,13 @@ ul.breadcrumb li a:hover {
 .content-index {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto;
     gap: 5px;
     grid-auto-flow: row;
     grid-template-areas:
         "main-index-text main-index-text main-index-text"
         "main-index-img main-index-img main-index-img"
+        "main-recent-title main-recent-title main-recent-title"
         "main-index-article-3 main-index-article-3 main-index-article-3"
         "main-index-article-2 main-index-article-2 main-index-article-2"
         "main-index-article-1 main-index-article-1 main-index-article-1";
@@ -109,6 +126,7 @@ ul.breadcrumb li a:hover {
     grid-area: main-footer;
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* CSS Grid: articles.html */
@@ -129,7 +147,7 @@ ul.breadcrumb li a:hover {
 .content-articles {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto;
     gap: 5px;
     grid-auto-flow: row;
     grid-template-areas:
@@ -148,6 +166,7 @@ ul.breadcrumb li a:hover {
 
 .article-3-img {
     grid-area: article-3-img;
+    justify-self: center;
 }
 
 .article-2-text {
@@ -156,6 +175,7 @@ ul.breadcrumb li a:hover {
 
 .article-2-img {
     grid-area: article-2-img;
+    justify-self: center;
 }
 
 .article-1-text {
@@ -164,6 +184,7 @@ ul.breadcrumb li a:hover {
 
 .article-1-img {
     grid-area: article-1-img;
+    justify-self: center;
 }
 
 /* CSS Grid: article.html */
@@ -199,6 +220,7 @@ ul.breadcrumb li a:hover {
 
 .article-img-1 {
     grid-area: article-img-1;
+    justify-self: center;
 }
 
 .article-main-text {
@@ -211,10 +233,12 @@ ul.breadcrumb li a:hover {
 
 .article-img-2 {
     grid-area: article-img-2;
+    justify-self: center;
 }
 
 .article-img-3 {
     grid-area: article-img-3;
+    justify-self: center;
 }
 
 .article-subtext-2 {
@@ -240,16 +264,24 @@ ul.breadcrumb li a:hover {
 .content-contact {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 0px 0px;
+    grid-template-rows: auto 1fr auto;
+    gap: 5px;
     grid-auto-flow: row;
     grid-template-areas:
-        "contact-img contact-form contact-map";
+        "contact-img contact-img contact-img"
+        "contact-form contact-form contact-form"
+        "contact-map contact-map contact-map";
     grid-area: content-contact;
 }
 
 .contact-img {
     grid-area: contact-img;
+    justify-self: center;
+}
+
+.contact-img img {
+    width: 100%;
+    margin: auto;
 }
 
 .contact-form {
@@ -258,70 +290,91 @@ ul.breadcrumb li a:hover {
 
 .contact-map {
     grid-area: contact-map;
+    justify-self: center;
+}
+
+.contact-map img {
+    width: 100%;
+    margin: auto;
+}
+
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 5px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: vertical
+}
+
+input[type=submit] {
+    background-color: #000;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover {
+    background-color: #47c24d;
 }
 
 /* CSS Grid: (from 500px) */
 
 @media (min-width: 501px) {
 
-    .main-header {
-        background-image: url("../images/skye-1.jpg");
-        height: 150px;
+    .main-header img {
+        width: 100%;
+        margin: auto;
+        display: block;
     }
 
     .main-nav ul li {
         display: inline-block;
     }
 
-    .container index {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        gap: 0;
-        grid-auto-flow: row;
-        grid-template-areas:
-            "main-header main-header main-header"
-            "main-nav main-nav main-nav"
-            "content-index content-index content-index"
-            "main-footer main-footer main-footer";
-    }
 
     .content-index {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr auto;
+        grid-template-rows: 1fr auto auto;
         gap: 10px;
         grid-auto-flow: row;
         grid-template-areas:
             "main-index-img main-index-img main-index-text"
+            "main-recent-title main-recent-title main-recent-title"
             "main-index-article-3 main-index-article-2 main-index-article-1";
         grid-area: content-index;
-    }
-
-    .container articles {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        gap: 10px 10px;
-        grid-auto-flow: row;
-        grid-template-areas:
-            "main-header main-header main-header"
-            "main-nav main-nav main-nav"
-            "content-articles content-articles content-articles"
-            "main-footer main-footer main-footer";
     }
 
     .content-articles {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        gap: 0px 0px;
+        gap: 5px;
         grid-auto-flow: row;
         grid-template-areas:
             "article-3-text article-3-text article-3-img"
             "article-2-text article-2-text article-2-img"
             "article-1-text article-1-text article-1-img";
         grid-area: content-articles;
+    }
+
+    .content-article {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 5px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "article-img-1 article-img-1 article-img-1"
+            "article-main-text article-main-text article-main-text"
+            "article-subtext-1 article-subtext-1 article-img-2"
+            "article-img-3 article-subtext-2 article-subtext-2";
+        grid-area: content-article;
     }
 
     .container contact {
@@ -341,10 +394,29 @@ ul.breadcrumb li a:hover {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
-        gap: 0px 0px;
+        gap: 5px;
         grid-auto-flow: row;
         grid-template-areas:
             "contact-img contact-form contact-map";
         grid-area: content-contact;
     }
+}
+
+/* CSS Grid: (from 500px to 800px) */
+
+@media screen and (min-width: 501px) and (max-width: 801px) {
+    .content-index {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto 1fr auto auto;
+        gap: 10px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "main-index-text main-index-text main-index-text"
+            "main-index-img main-index-img main-index-img"
+            "main-recent-title main-recent-title main-recent-title"
+            "main-index-article-3 main-index-article-2 main-index-article-1";
+        grid-area: content-index;
+    }
+
 }
