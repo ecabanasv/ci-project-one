@@ -169,6 +169,11 @@ ul.breadcrumb li a:hover {
     justify-self: center;
 }
 
+.article-3-img img {
+    width: 100%;
+    margin: auto;
+}
+
 .article-2-text {
     grid-area: article-2-text;
 }
@@ -178,6 +183,11 @@ ul.breadcrumb li a:hover {
     justify-self: center;
 }
 
+.article-2-img img {
+    width: 100%;
+    margin: auto;
+}
+
 .article-1-text {
     grid-area: article-1-text;
 }
@@ -185,6 +195,11 @@ ul.breadcrumb li a:hover {
 .article-1-img {
     grid-area: article-1-img;
     justify-self: center;
+}
+
+.article-1-img img {
+    width: 100%;
+    margin: auto;
 }
 
 /* CSS Grid: article.html */
@@ -205,7 +220,7 @@ ul.breadcrumb li a:hover {
 .content-article {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr 1fr 1fr 1fr;
     gap: 5px;
     grid-auto-flow: row;
     grid-template-areas:
@@ -223,6 +238,11 @@ ul.breadcrumb li a:hover {
     justify-self: center;
 }
 
+.article-img-1 img {
+    width: 100%;
+    margin: auto;
+}
+
 .article-main-text {
     grid-area: article-main-text;
 }
@@ -236,9 +256,19 @@ ul.breadcrumb li a:hover {
     justify-self: center;
 }
 
+.article-img-2 img {
+    width: 100%;
+    margin: auto;
+}
+
 .article-img-3 {
     grid-area: article-img-3;
     justify-self: center;
+}
+
+.article-img-3 img {
+    width: 100%;
+    margin: auto;
 }
 
 .article-subtext-2 {
