@@ -8,6 +8,8 @@ body {
     padding: 10px;
 }
 
+/* Breadcrumb */
+
 ul.breadcrumb {
     padding: 5px 8px;
     list-style: none;
@@ -26,9 +28,13 @@ ul.breadcrumb li a:hover {
     text-decoration: underline;
 }
 
+/* Header */
+
 .main-header img {
     display: none;
 }
+
+/* Center item */
 
 .center-block {
     display: block;
@@ -75,6 +81,10 @@ ul.breadcrumb li a:hover {
     color: white;
     padding: 1em;
     text-align: center;
+}
+
+.main-nav li a:hover {
+    text-decoration: underline;
 }
 
 .main-nav ul {
@@ -408,6 +418,16 @@ input[type=submit]:hover {
         grid-area: content-article;
     }
 
+    .article-img-2 {
+        grid-area: article-img-2;
+        justify-self: end;
+    }
+
+    .article-img-3 {
+        grid-area: article-img-3;
+        justify-self: start;
+    }
+
     .container contact {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -449,5 +469,4 @@ input[type=submit]:hover {
             "main-index-article-3 main-index-article-2 main-index-article-1";
         grid-area: content-index;
     }
-
 }
