@@ -1,10 +1,14 @@
 /* General */
 
-html,
+html {
+    background-color: white;
+}
+
 body {
     max-width: 940px;
     margin: auto;
     padding: 10px;
+    box-shadow: 0px 5px 5px 0px gray;
 }
 
 /* Breadcrumb */
@@ -27,12 +31,6 @@ ul.breadcrumb li a:hover {
     text-decoration: underline;
 }
 
-/* Header */
-
-.main-header img {
-    display: none;
-}
-
 /* Center item */
 
 .center-block {
@@ -41,13 +39,18 @@ ul.breadcrumb li a:hover {
     margin-left: auto;
 }
 
-.container{
+.container {
     border: 1px solid gray;
-    background-color: whitesmoke;
+    background-color: floralwhite;
 }
 
-.page-title, .contact-details{
+.page-title,
+.contact-details {
     margin-left: 10px;
+}
+
+.read-more-link {
+    text-decoration: none;
 }
 
 
@@ -68,7 +71,6 @@ ul.breadcrumb li a:hover {
 
 .main-header {
     grid-area: main-header;
-    background-image: none;
 }
 
 .main-header img {
@@ -233,7 +235,7 @@ ul.breadcrumb li a:hover {
     padding: 0 10px 0 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
     gap: 5px;
     grid-auto-flow: row;
     grid-template-areas:
@@ -246,7 +248,7 @@ ul.breadcrumb li a:hover {
 .content-article {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto;
     gap: 5px;
     grid-auto-flow: row;
     grid-template-areas:
