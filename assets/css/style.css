@@ -79,6 +79,7 @@ ul.breadcrumb li a:hover {
 
 .main-nav ul {
     list-style-type: none;
+    padding: 0;
 }
 
 .content-index {
@@ -396,7 +397,7 @@ input[type=submit]:hover {
     .content-article {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto auto;
         gap: 5px;
         grid-auto-flow: row;
         grid-template-areas:
