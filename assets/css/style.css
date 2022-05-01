@@ -2,7 +2,6 @@
 
 html,
 body {
-    height: 100%;
     max-width: 940px;
     margin: auto;
     padding: 10px;
@@ -42,13 +41,22 @@ ul.breadcrumb li a:hover {
     margin-left: auto;
 }
 
+.container{
+    border: 1px solid gray;
+    background-color: whitesmoke;
+}
 
-/* CSS Grid: index.html (less than 375px) */
+.page-title, .contact-details{
+    margin-left: 10px;
+}
+
+
+/* CSS Grid: index.html (less than 500px) */
 
 .container index {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto 1fr 1fr;
     gap: 5px;
     grid-auto-flow: row;
     grid-template-areas:
@@ -59,7 +67,6 @@ ul.breadcrumb li a:hover {
 }
 
 .main-header {
-    margin-top: 10px;
     grid-area: main-header;
     background-image: none;
 }
@@ -90,9 +97,11 @@ ul.breadcrumb li a:hover {
 .main-nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 .content-index {
+    padding: 0 10px 0 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto auto auto auto;
@@ -119,6 +128,7 @@ ul.breadcrumb li a:hover {
 .main-index-img img {
     width: 100%;
     height: auto;
+    border: 1px solid gray;
 }
 
 .main-index-article-3 {
@@ -143,6 +153,7 @@ ul.breadcrumb li a:hover {
 /* CSS Grid: articles.html */
 
 .container articles {
+    padding: 0 10px 0 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -183,6 +194,7 @@ ul.breadcrumb li a:hover {
 .article-3-img img {
     width: 100%;
     margin: auto;
+    border: 1px solid gray;
 }
 
 .article-2-text {
@@ -197,6 +209,7 @@ ul.breadcrumb li a:hover {
 .article-2-img img {
     width: 100%;
     margin: auto;
+    border: 1px solid gray;
 }
 
 .article-1-text {
@@ -211,11 +224,13 @@ ul.breadcrumb li a:hover {
 .article-1-img img {
     width: 100%;
     margin: auto;
+    border: 1px solid gray;
 }
 
 /* CSS Grid: article.html */
 
 .container single-article {
+    padding: 0 10px 0 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -252,6 +267,7 @@ ul.breadcrumb li a:hover {
 .article-img-1 img {
     width: 100%;
     margin: auto;
+    border: 1px solid gray;
 }
 
 .article-main-text {
@@ -270,6 +286,7 @@ ul.breadcrumb li a:hover {
 .article-img-2 img {
     width: 100%;
     margin: auto;
+    border: 1px solid gray;
 }
 
 .article-img-3 {
@@ -280,6 +297,7 @@ ul.breadcrumb li a:hover {
 .article-img-3 img {
     width: 100%;
     margin: auto;
+    border: 1px solid gray;
 }
 
 .article-subtext-2 {
@@ -290,6 +308,7 @@ ul.breadcrumb li a:hover {
 /* CSS Grid: contact.html */
 
 .container contact {
+    padding: 0 10px 0 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -336,6 +355,7 @@ ul.breadcrumb li a:hover {
 .contact-map img {
     width: 100%;
     margin: auto;
+    border: 1px solid gray;
 }
 
 
@@ -378,6 +398,7 @@ input[type=submit]:hover {
 
 
     .content-index {
+        padding: 0 10px 0 10px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr auto auto;
@@ -391,6 +412,7 @@ input[type=submit]:hover {
     }
 
     .content-articles {
+        padding: 0 10px 0 10px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
@@ -404,6 +426,7 @@ input[type=submit]:hover {
     }
 
     .content-article {
+        padding: 0 10px 0 10px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto auto auto auto;
@@ -441,6 +464,7 @@ input[type=submit]:hover {
     }
 
     .content-contact {
+        padding: 0 10px 0 10px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: auto 1fr 100px;
@@ -471,6 +495,7 @@ input[type=submit]:hover {
 
 @media screen and (min-width: 501px) and (max-width: 801px) {
     .content-index {
+        padding: 0 10px 0 10px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto 1fr auto auto;
