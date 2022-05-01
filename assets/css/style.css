@@ -169,6 +169,7 @@ ul.breadcrumb li a:hover {
 }
 
 .content-articles {
+    padding: 0 10px 0 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto auto auto auto;
@@ -246,6 +247,7 @@ ul.breadcrumb li a:hover {
 }
 
 .content-article {
+    padding: 0 10px 0 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto auto auto auto;
