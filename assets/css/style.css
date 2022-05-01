@@ -305,11 +305,10 @@ ul.breadcrumb li a:hover {
 .content-contact {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: 1fr auto;
     gap: 5px;
     grid-auto-flow: row;
     grid-template-areas:
-        "contact-img contact-img contact-img"
         "contact-form contact-form contact-form"
         "contact-map contact-map contact-map";
     grid-area: content-contact;
@@ -443,13 +442,25 @@ input[type=submit]:hover {
 
     .content-contact {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 50px 1fr 100px;
         gap: 5px;
         grid-auto-flow: row;
         grid-template-areas:
-            "contact-img contact-form contact-map";
+            ". . . . ."
+            "contact-form contact-form . contact-map contact-map"
+            ". . . . .";
         grid-area: content-contact;
+        align-content: space-between;
+        justify-content: space-around;
+    }
+
+    .contact-map {
+        grid-area: contact-map;
+    }
+
+    .contact-map img {
+        width: 100%;
     }
 }
 
