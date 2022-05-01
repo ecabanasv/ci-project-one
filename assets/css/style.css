@@ -443,16 +443,19 @@ input[type=submit]:hover {
     .content-contact {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 50px 1fr 100px;
+        grid-template-rows: auto 1fr 100px;
         gap: 5px;
         grid-auto-flow: row;
         grid-template-areas:
             ". . . . ."
-            "contact-form contact-form . contact-map contact-map"
+            "contact-form contact-form contact-form contact-map contact-map"
             ". . . . .";
         grid-area: content-contact;
-        align-content: space-between;
-        justify-content: space-around;
+    }
+
+    .contact-form {
+        grid-area: contact-form;
+        width: 85%;
     }
 
     .contact-map {
