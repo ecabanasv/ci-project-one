@@ -326,6 +326,7 @@ ul.breadcrumb li a:hover {
 }
 
 .content-contact {
+    padding: 0 10px 0 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr auto;
