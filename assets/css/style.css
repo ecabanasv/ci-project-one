@@ -53,6 +53,11 @@ ul.breadcrumb li a:hover {
     text-decoration: none;
 }
 
+.social-networks{
+    padding: 5px;
+    float:right;
+}
+
 
 /* CSS Grid: index.html (less than 500px) */
 
@@ -150,6 +155,14 @@ ul.breadcrumb li a:hover {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.main-footer a{
+    text-decoration: none;
+}
+
+.main-footer i{
+    text-decoration: none;
 }
 
 /* CSS Grid: articles.html */
