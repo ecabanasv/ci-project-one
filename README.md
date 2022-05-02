@@ -7,6 +7,8 @@ Live website can be found through this [link](https://ecabanasv.github.io/ci-pro
 
 ![website preview](assets/readme/1-rwd.png)
 
+Ami link [here](https://ui.dev/amiresponsive?url=https://ecabanasv.github.io/ci-project-one/index.html)
+
 ## Table of Contents 
 
 # Table of Contents
@@ -33,7 +35,7 @@ Live website can be found through this [link](https://ecabanasv.github.io/ci-pro
   [7. Acknowledgement](#acknowledgement)
 
   <a name="ux"></a>
-# 1. User Expereince (UX) design
+# 1. UX design
   [Go to the top](#table-of-contents)
   
 The Isle of Skye is the best known of the Highlands, the most appreciated and fascinating, also known as the Isle of Fairies for its impressive landscapes and hidden places. These remote lands of the North of Scotland, which have so inspired writers and painters, continue to arouse great admiration among travellers. The Isle of Skye was always separated from British soil until a bridge was built in 1995 linking the towns of Kyleakin and Kyle of Lochalsh.
