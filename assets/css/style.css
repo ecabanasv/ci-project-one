@@ -25,6 +25,8 @@ ul.breadcrumb li {
 }
 
 ul.breadcrumb li a {
+    color: black;
+    font-weight: bold;
     text-decoration: none;
 }
 
