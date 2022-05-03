@@ -74,12 +74,18 @@ ul.breadcrumb li a:hover {
 }
 
 .social-networks {
+    font-size: 25px;
     padding: 5px;
+    margin-top: 20px;
     text-align: center;
 }
 
 .social-networks a {
     color: black;
+}
+
+.social-networks a i {
+    margin: 0 5px 0 5px;
 }
 
 
