@@ -50,13 +50,34 @@ ul.breadcrumb li a:hover {
     margin-left: 10px;
 }
 
-.read-more-link {
+.read-more-link{
+    font-size: 10px;
+    text-align: left;
+}
+
+.read-more-link a {
+    color: black;
+    padding: 2px;
+    background-color: white;
+    border-radius: 5px;
     text-decoration: none;
+    
+}
+
+.read-more-link a:hover {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    text-decoration: underline;
 }
 
 .social-networks {
     padding: 5px;
-    float: right;
+    text-align: center;
+}
+
+.social-networks a {
+    color: black;
 }
 
 
