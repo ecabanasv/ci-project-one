@@ -188,7 +188,7 @@ An initial image has been included in the README made through the Ami web tool t
 
 ### 4.1.3 W3C Validator Tools (HTML and CSS)
 
-Para la validación del código HTML se ha utilizado la herramienta oficial [W3C Markup](https://validator.w3.org/#validate_by_input+with_options).
+For the validation of the HTML code, the official tool has been used [W3C Markup](https://validator.w3.org/#validate_by_input+with_options).
 
 - index.html
 ![W3C HTML index page](./assets/readme/11-index-w3c-html.png)
