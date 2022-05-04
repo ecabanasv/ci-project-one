@@ -191,12 +191,12 @@ An initial image has been included in the README made through the Ami web tool t
 Para la validación del código HTML se ha utilizado la herramienta oficial [W3C Markup](https://validator.w3.org/#validate_by_input+with_options).
 
 ![W3C HTML index page](./assets/readme/11-index-w3c-html.png)
-![W3C HTML articles page](./assets/readme/12-index-w3c-html.png)
-![W3C HTML article-3 page](./assets/readme/13-index-w3c-html.png)
-![W3C HTML article-2 page](./assets/readme/14-index-w3c-html.png)
-![W3C HTML article-1 page](./assets/readme/15-index-w3c-html.png)
-![W3C HTML contact page](./assets/readme/16-index-w3c-html.png)
-![W3C CSS style.css](./assets/readme/17-index-w3c-html.png)
+![W3C HTML articles page](./assets/readme/12-articles-w3c-html.png)
+![W3C HTML article-3 page](./assets/readme/13-article3-w3c-html.png)
+![W3C HTML article-2 page](./assets/readme/14-article2-w3c-html.png)
+![W3C HTML article-1 page](./assets/readme/15-article1-w3c-html.png)
+![W3C HTML contact page](./assets/readme/16-contact-w3c-html.png)
+![W3C CSS style.css](./assets/readme/17-style-w3c-css.png)
 
 ## 4.2 Manual Testing
 
