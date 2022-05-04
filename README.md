@@ -292,23 +292,89 @@ Responsive content| Correct visualization of responsive design of contact page |
   [Go to the top](#table-of-contents)
 
 ### Solved bugs
-- 
+- Wrong head titles in articles and article-3, article-1 and contact. After copy and paste same title I figured out after a while they were incorrect.
+- Change some div tags to semantic html tags in all pages after reviewed by a peer in Slack channel. They were all divs, now seems more correct.
+- Different html validator errors in images (no alt tags). Corrected after include all the images in the repository.
+- Fixed the resizing on index (from 500px to 800px, check style.css grid css). After resize the browser in between those values articles on index.html had bad visualization.
+- Added arial-labels in input form fields after being recommended by mentor Marcel.
 
   <a name="deployment"></a>
 # 6. Deployment
   [Go to the top](#table-of-contents)
-
+  
+The website has been deployed on Github Pages. Through the "Settings" tab, the pages option was selected and a link was generated to access the website.
 
   <a name="acknowledgement"></a>
 # 7. Acknowledgement
   [Go to the top](#table-of-contents)
   
 ### Code
-* 
+* Example for project idea: Love Running projects from codeinstitute.net
+* Most HTML and CSS tips and advice have been learned from Mozilla Developers and w3schools page.
+* Images through different websites such as unsplash.com, pexels.com, alltrails.com, wikipedia.org and castlesfortsbattles.co.uk. Below is the content section I put the address of each image.
+
 
 ### Content 
-* 
-  
+* Reference used to structure the README.md file (https://github.com/dhakal79/Portfolio-project-MS1/blob/master/README.md)
+* Images: 
+
+Image path: assets/images/skye-1.jpg
+
+URL: https://unsplash.com/photos/PTwcNxVfNWI
+
+---
+
+Image path: assets/images/stor-1-940x250.jpg
+
+URL: https://www.pexels.com/photo/person-wearing-black-jacket-standing-on-green-grass-field-near-lake-590029/
+
+---
+
+Image path: assets/images/stor-2.jpg
+
+URL: https://www.pexels.com/photo/landscape-sunset-water-summer-8089495/
+
+---
+
+Image path: assets/images/stor-3.jpg
+
+URL: https://unsplash.com/photos/Ys1UeoLuxC0
+
+---
+
+Image path: assets/images/portree-index.jpg, assets/images/portree-2.jpg, assets/images/portree-2a.jpg
+
+URL: Personal
+
+---
+
+Image path: assets/images/portree-2.jpg
+
+URL: https://www.alltrails.com/explore/trail/scotland/highland/scorrybreac-circuit?mobileMap=false
+
+---
+
+Image path: assets/images/portree-3.jpg
+
+URL: https://www.pexels.com/photo/light-sea-landscape-nature-65584/
+
+---
+
+Image path: assets/images/dunvegan-castle-1.jpg
+
+URL: http://www.castlesfortsbattles.co.uk/highland/dunvegan_castle.html
+
+---
+
+Image path: assets/images/dunvegan-castle-2.jpg
+
+URL: https://en.wikipedia.org/wiki/Clan_MacLeod
+
+---
+
+Image path: assets/images/dunvegan-castle-3.jpg
+
+URL: http://www.castlesfortsbattles.co.uk/highland/dunvegan_castle.html
 
 
 
