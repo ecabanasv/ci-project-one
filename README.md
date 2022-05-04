@@ -249,17 +249,26 @@ Main content| Correct content and style for main title, image and text | OK
 Articles| Correct content and style for each articles: title and text | OK
 Responsive content| Correct visualization of responsive design of content | OK
 
+- Lighthouse score (index)
+![Lighthouse index page](./assets/readme/18-index-score.png)
+
 ### Articles page
 TEST            | RESULT                           | OK / FAIL  
 --------------- | -------------------------------- | ---------------
 Articles| Correct content and style for each articles: title and text | OK
 Responsive content| Correct visualization of responsive design of articles content | OK
 
+- Lighthouse score (articles)
+![Lighthouse articles page](./assets/readme/19-articles-score.png)
+
 ### Article page
 TEST            | RESULT                           | OK / FAIL  
 --------------- | -------------------------------- | ---------------
 Single article| Correct content and style of single article: main image, sub images and sub text | OK
 Responsive content| Correct visualization of responsive design of single article content | OK
+
+- Lighthouse score (single article)
+![Lighthouse article page](./assets/readme/20-single-article-score.png)
 
 ### Contact page
 TEST            | RESULT                           | OK / FAIL  
@@ -269,6 +278,9 @@ Contact form| Correct visualization of responsive design of contact form | OK
 Contact form data | Check required fields name, email and message | OK
 Contact map| Correct visualization of responsive design of contact map image | OK
 Responsive content| Correct visualization of responsive design of contact page | OK
+
+- Lighthouse score (single article)
+![Lighthouse contact page](./assets/readme/21-contact-score.png)
 
 
   <a name="bugs"></a>
