@@ -105,10 +105,16 @@ The colour scheme used on the web is not very complicated. The main colours of t
 # 2. Features
   [Go to the top](#table-of-contents)
  ### All 6 pages:
-- 
+
+- Header images (1): Main header of the website that includes the title of the website, typical cows from Scotland and the Skye island flag
+- Navigation bar (2): Nav bar of website thats includes the three menu elements of the site: Home, Articles and Contact. Colors (yellow from the Skye flag) changed when current page is different.
+- Footer (5): The main footer is shared across the different pages and it contains the main social networks icons: FB, IG and Twitter.
+
 
 ### Index page:
-- 
+- General elements shared with all pages (1, 2 and 5)
+- Welcome main text (3): It contains the welcome title text, main text and image of Portree. In short it's described Isle of Skye.
+- Recent articles title (4) and the last three articles of the site. In this case the articles are: Old Man of Storr, City of Portree and Dunvegan Castle which includes font awesome icon, short title and short intro.
 
 The screenshot of index page is below:
 
@@ -116,7 +122,10 @@ The screenshot of index page is below:
   ![Index page preview](./assets/readme/7-index-page.png)
 
 ### Articles page:
-- 
+- General elements shared with all pages (1, 2 and 5)
+- List of articles (6): Section that contains all the articles of the website. They are ordered from last (top) to first (bottom).
+- Each article contains font awesome icon, title and medium intro.
+- In the right sided of the article all the relevant articles images are shown.
 
 The screenshot of articles page is below:
 
@@ -124,7 +133,9 @@ The screenshot of articles page is below:
   ![Articles page preview](./assets/readme/8-articles-page.png)
   
 ### Article page:
-- 
+- General elements shared with all pages (1, 2 and 5)
+- Breadcrumb for single articles (7): It helps visitor to go back to articles from the single article.
+- Single article content (8): All the relevant content of the article with main image, main text, subtext and images.
 
 The screenshot of article page is below:
 
@@ -133,7 +144,10 @@ The screenshot of article page is below:
 
 
 ### Contact page:
-- 
+- General elements shared with all pages (1, 2 and 5)
+- Contact details (9): Includes address, phone and email of the site owner.
+- Along with the details a contact form where visitor can send messages to owner (name, email and message required)
+- And a map specifying the location of the site owner.
 
 The screenshot of contact page is below:
 
@@ -164,11 +178,25 @@ The screenshot of contact page is below:
   
 ## 4.1 Testing using tools
 
+### 4.1.1 Browser Developer tools
+
+The built-in tools of the Google Chrome and Firefox Developer Edition browsers have been used in the project. In this case, inspect each HTML and CSS element. These tools were also used to run different performance and optimization tests, such as Google Chrome's Lighthouse or the tools included to view the web on different device sizes.
+
 ### 4.1.2 Responsive Tools
 
+An initial image has been included in the README made through the Ami web tool that includes the version in different web formats (Laptop, Tablet and Phone)
 
-### 4.1.3 W3C Validator Tools
+### 4.1.3 W3C Validator Tools (HTML and CSS)
 
+Para la validación del código HTML se ha utilizado la herramienta oficial [W3C Markup](https://validator.w3.org/#validate_by_input+with_options).
+
+![W3C HTML index page](./assets/readme/11-index-w3c-html.png)
+![W3C HTML articles page](./assets/readme/12-index-w3c-html.png)
+![W3C HTML article-3 page](./assets/readme/13-index-w3c-html.png)
+![W3C HTML article-2 page](./assets/readme/14-index-w3c-html.png)
+![W3C HTML article-1 page](./assets/readme/15-index-w3c-html.png)
+![W3C HTML contact page](./assets/readme/16-index-w3c-html.png)
+![W3C CSS style.css](./assets/readme/17-index-w3c-html.png)
 
 ## 4.2 Manual Testing
 
