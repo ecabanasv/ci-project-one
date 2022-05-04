@@ -190,32 +190,86 @@ An initial image has been included in the README made through the Ami web tool t
 
 Para la validación del código HTML se ha utilizado la herramienta oficial [W3C Markup](https://validator.w3.org/#validate_by_input+with_options).
 
+- index.html
 ![W3C HTML index page](./assets/readme/11-index-w3c-html.png)
+
+- articles.html
 ![W3C HTML articles page](./assets/readme/12-articles-w3c-html.png)
-![W3C HTML article-3 page](./assets/readme/13-article1-w3c-html.png)
+
+- article-1.html
+![W3C HTML article-1 page](./assets/readme/13-article1-w3c-html.png)
+
+- article-2.html
 ![W3C HTML article-2 page](./assets/readme/14-article2-w3c-html.png)
-![W3C HTML article-1 page](./assets/readme/15-article3-w3c-html.png)
+
+- article-3.html
+![W3C HTML article-3 page](./assets/readme/15-article3-w3c-html.png)
+
+- contact.html
 ![W3C HTML contact page](./assets/readme/16-contact-w3c-html.png)
+
+- assets/css/style.css
 ![W3C CSS style.css](./assets/readme/17-style-w3c-css.png)
 
 ## 4.2 Manual Testing
 
+Web display has been tested on all available devices from the "Responsive Design Mode" tool of Firefox Developer Edition. This device list includes the following:
+
+- Galaxy Note 20 (412x915)
+- Galaxy S20 (360x800)
+- Ipad (810x1080)
+- Iphone 11 Pro (375x812)
+- IPhone 12/13 Mini (390x844)
+- IPhone 11 SE 2nd Gen (375x667)
+- Kindle Fire HDX (800x1280)
 
  ## All 6 pages:
+TEST            | RESULT                           | OK / FAIL  
+--------------- | -------------------------------- | ---------------
+Header| Correct visualization of header image / each page | OK
+Navigation bar| Correct links and colors when select each menu / each page | OK
+Footer| Correct size and links / each page | OK
+Head title| Correct title / Each page | OK
+Favicon| Correct visualization of favicon / Each page | OK
+Responsive design| Correct visualization of content / each page | OK
+
 
  ### Footer
 
+TEST            | RESULT                           | OK / FAIL  
+--------------- | -------------------------------- | ---------------
+Facebook | Open FB site in new tab | OK
+Instagram| Open IG site in new tab  | OK
+Twitter| Open Twitter site in new tab | OK
 
 ### Index page
-
+TEST            | RESULT                           | OK / FAIL  
+--------------- | -------------------------------- | ---------------
+Main content| Correct content and style for main title, image and text | OK
+Articles| Correct content and style for each articles: title and text | OK
+Responsive content| Correct visualization of responsive design of content | OK
 
 ### Articles page
-
+TEST            | RESULT                           | OK / FAIL  
+--------------- | -------------------------------- | ---------------
+Articles| Correct content and style for each articles: title and text | OK
+Responsive content| Correct visualization of responsive design of articles content | OK
 
 ### Article page
-
+TEST            | RESULT                           | OK / FAIL  
+--------------- | -------------------------------- | ---------------
+Single article| Correct content and style of single article: main image, sub images and sub text | OK
+Responsive content| Correct visualization of responsive design of single article content | OK
 
 ### Contact page
+TEST            | RESULT                           | OK / FAIL  
+--------------- | -------------------------------- | ---------------
+Contact details| Correct content and style of contact details: font awesome icons and text | OK
+Contact form| Correct visualization of responsive design of contact form | OK
+Contact form data | Check required fields name, email and message | OK
+Contact map| Correct visualization of responsive design of contact map image | OK
+Responsive content| Correct visualization of responsive design of contact page | OK
+
 
   <a name="bugs"></a>
 # 5. Bugs
