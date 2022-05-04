@@ -250,6 +250,7 @@ Articles| Correct content and style for each articles: title and text | OK
 Responsive content| Correct visualization of responsive design of content | OK
 
 - Lighthouse score (index)
+
 ![Lighthouse index page](./assets/readme/18-index-score.png)
 
 ### Articles page
@@ -259,6 +260,7 @@ Articles| Correct content and style for each articles: title and text | OK
 Responsive content| Correct visualization of responsive design of articles content | OK
 
 - Lighthouse score (articles)
+
 ![Lighthouse articles page](./assets/readme/19-articles-score.png)
 
 ### Article page
@@ -268,6 +270,7 @@ Single article| Correct content and style of single article: main image, sub ima
 Responsive content| Correct visualization of responsive design of single article content | OK
 
 - Lighthouse score (single article)
+
 ![Lighthouse article page](./assets/readme/20-single-article-score.png)
 
 ### Contact page
@@ -280,6 +283,7 @@ Contact map| Correct visualization of responsive design of contact map image | O
 Responsive content| Correct visualization of responsive design of contact page | OK
 
 - Lighthouse score (single article)
+
 ![Lighthouse contact page](./assets/readme/21-contact-score.png)
 
 
