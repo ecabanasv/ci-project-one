@@ -302,7 +302,56 @@ Responsive content| Correct visualization of responsive design of contact page |
 # 6. Deployment
   [Go to the top](#table-of-contents)
   
-The website has been deployed on Github Pages. Through the "Settings" tab, the pages option was selected and a link was generated to access the website.
+The main branch of this repository has been used for the deployed version of this application.
+
+## Via Gitpod
+
+The project deployment was based on the [Code Institute Gitpod Full Template](https://github.com/Code-Institute-Org/gitpod-full-template).
+
+  - Click the `Use This Template` button.
+  - Add a repository name and brief description.
+  - Click the `Create Repository from Template` to create your repository.
+  - To create a Gitpod workspace you then need to click `Gitpod`, this can take a few minutes.
+  - When you want to work on the project it is best to open the workspace from Gitpod (rather than Github) as this will open your previous workspace rather than create a new one. You should pin the workspace so that it isn't deleted.
+  -  Committing your work should be done often and should have clear/explanatory messages, use the following commands to make your commits:
+    - `git add .`: adds all modified files to a staging area
+    - `git commit -m "A message explaining your commit"`: commits all changes to a local repository.
+    - `git push`: pushes all your committed changes to your Github repository.
+  - You can view the website in a browser by using the command `python3 -m http.server` and clicking on the button `Open Browser` on the box that will pop up.
+
+*Forking the GitHub Repository*
+
+If you want to make changes to your repository without affecting it, you can make a copy of it by 'Forking' it. This ensures your original repository remains unchanged.
+
+  1. Find the relevant GitHub repository
+  2. In the top right corner of the page, click the Fork button (under your account)
+  3. Your repository has now been 'Forked' and you have a copy to work on
+
+*Cloning the GitHub Repository*
+
+Cloning your repository will allow you to download a local version of the repository to be worked on. Cloning can also be a great way to backup your work.
+
+  1. Find the relevant GitHub repository
+  2. Press the arrow on the Code button
+  3. Copy the link that is shown in the drop-down
+  4. Now open Gitpod & select the directory location where you would like the clone created
+  5. In the terminal type 'git clone' & then paste the link you copied on GitHub
+  6. Press enter and your local clone will be created.
+
+## Via Github Pages
+
+  - The live website was deployed to GitHub pages. The steps to deploy are as follows: 
+  
+    1. Log in to GitHub
+    2. In your Repository section, select the project repository that you want to deploy
+    3. In the menu located at the top of this section, click `Settings`
+    4. Select `Pages` on the left-hand menu - this is around halfway down
+    5. In the source section, select branch `Master` and save
+    6. The page is then given a site URL which you will see above the source section.
+
+Please note it can take a while for this link to become fully active. 
+
+The live link can be found [here](https://ecabanasv.github.io/ci-project-one/).
 
   <a name="acknowledgement"></a>
 # 7. Acknowledgement
